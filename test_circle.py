@@ -10,8 +10,6 @@ Write unit tests as described in README.md.
 import unittest
 from circle import Circle
 import math
-# TODO write 3 tests as described above
-
 
 class CircleTest(unittest.TestCase):
 
@@ -35,5 +33,3 @@ class CircleTest(unittest.TestCase):
     def test_circle_constructor(self):
         with self.assertRaises(ValueError):
             Circle(-1)
-
-
